@@ -1,6 +1,14 @@
 body{
     height: 900px;
 }
+a {
+  color: inherit;          /* 继承父元素颜色 */
+  text-decoration: none;   /* 去掉下划线 */
+}
+a: hover {
+    color:darkorange;
+    text-decoration: underline;
+}
 p {
     text-align: center;
     font-size: larger;
