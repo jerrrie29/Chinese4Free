@@ -1,0 +1,22 @@
+body {
+    margin-top: 15%;
+   text-align: center;
+    font-size: larger;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+  color: inherit;          /* 继承父元素颜色 */
+  text-decoration: none;   /* 去掉下划线 */
+}
+a:hover {
+    color:darkorange;
+    text-decoration: underline;
+}
+
+.X,
+.Telegram,
+.Discord,
+.Email{
+    margin: 10px;
+}

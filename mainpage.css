@@ -1,0 +1,53 @@
+body{
+    height: 900px;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.Body {
+    display: block;
+    padding-top: 10%;
+   
+
+}
+
+
+.Title {
+    color: rgb(250, 137, 0);
+     font-size: 50px;
+     transition: text-decoration 15ms;
+     padding: 50px;
+     margin: 0;
+     transition: background-color 2ms;
+     
+}
+.Title:hover {
+    cursor: pointer;
+    text-decoration:underline;
+    
+}
+.Title:active {
+    cursor: pointer;
+    text-decoration:underline;
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+   
+}
+
+.Text {
+
+}
+
+.Last_Atten {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.Atten {
+    margin-top: 0px;
+    font-size: 38px;
+    
+}
